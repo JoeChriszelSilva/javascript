@@ -9,8 +9,8 @@ if ( idade >= 18 && idade <= 69  && doador == 2){
     console.log(nome + ' está apto a doar sangue.');
 }else if( idade >= 18 && idade <= 60 && doador == 1){
     console.log(nome + ' está apto a doar sangue.');
-}else if ( idade >= 60 && idade <= 69 && doador == 1) {
+}else if ( idade >= 60 && idade <= 69 && doador == 1){
     console.log(nome + ' Não está apto para doar sangue.');
 }else if ( idade < 18) {
-    console.log(nome + ' Não está apto para doar sangue')
+    console.log(nome + ' Não está apto para doar sangue');
 };
