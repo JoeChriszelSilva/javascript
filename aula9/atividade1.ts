@@ -2,7 +2,6 @@ import { Queue } from "./queue.ts";
 import * as readlineSync from "readline-sync";
 
 const fila = new Queue<string>();
-let continuar: boolean = true;
 let escolha: number;
 
 do {
